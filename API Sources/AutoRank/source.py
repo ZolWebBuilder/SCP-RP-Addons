@@ -3,6 +3,7 @@ from http.server import BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 
 # not a db, but it works so
+# this is the only part you'd wanna edit for this to work
 STAFF_DATA = {
     "FinallyDefined": "Head Moderator",
     "AlternativelyZolars": "Senior Moderator",
@@ -10,6 +11,12 @@ STAFF_DATA = {
     "JonathanOOMF": "Moderator",
     "ARandomTMod": "Trial Moderator"
 }
+
+# this is the part where you shouldn't touch things
+# unless, you wanted to modify the code to be more stable
+# or just editing it overall, if you don't know how it works
+# touching it might just break the entire thing
+
 # cases stuff
 STAFF_LOOKUP = {
     username.casefold(): rank
