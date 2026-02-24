@@ -22,6 +22,7 @@ local granted = {}
 
 -- the api itself
 -- you'll need to make one yourself
+-- get the source code at (placeholder)
 local staff_api = "https://api-zol.vercel.app/api/staff/return"
 
 ---------------------------------------------------
