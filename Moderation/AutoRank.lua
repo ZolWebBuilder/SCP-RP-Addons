@@ -1,5 +1,7 @@
 -- Ts so Coded Core
-
+-- You can edit this part, to match whatever you use in API, my api uses these
+-- You can also add more ranks, remove or such
+-- { ["Rank Name from API"] = "Your custom mod rank", ["default"] = "Default TeamName" }
 local mapping_array = {
     {["Trial Moderator"] = "TMod", ["default"] = "Staff Member"},
     {["Moderator"] = "Mod", ["default"] = "Staff Member"},
