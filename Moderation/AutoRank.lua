@@ -150,7 +150,7 @@ function await_plrs()
                 -- log("Grabbing map")
                 local map = getMapping(apiRank)
 
-                -- if not map then log("Somehow it failed") countinue end
+                -- if not map then log("Somehow it failed") continue end
                 if not map then
                     continue
                 end
